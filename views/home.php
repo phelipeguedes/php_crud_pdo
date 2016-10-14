@@ -46,7 +46,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="create.php">Inserir</a></li>
 					<li><a href="read.php">Listar</a></li>
-					<li><a href="http://localhost/php_crud_pdo_5/views/update.php?acao=atualizar&id=">Editar</a></li>
+					<li><a href="update.php?acao=atualizar&id=">Editar</a></li>
 					<li><a href="delete.php">Deletar</a></li>
 				</ul>
 			</div>
