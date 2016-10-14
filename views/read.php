@@ -56,8 +56,8 @@ $usuario = new Usuario();
 						<td><?= $linha['nome']; ?></td>
 						<td><?= $linha['email']; ?></td>
 						<td><?= $linha['senha']; ?></td>
-						<td><a href="/php_crud_pdo_5/views/delete.php?acao=deletar&id=<?php echo $linha['id']; ?>" onclick=' return confirm("Tem certeza que quer excluir este(a) usuário(a)?"); ' >excluir</a> |
-							<a href="/php_crud_pdo_5/views/update.php?acao=atualizar&id=<?php echo $linha['id']; ?>">atualizar</a>
+						<td><a href="delete.php?acao=deletar&id=<?php echo $linha['id']; ?>" onclick=' return confirm("Tem certeza que quer excluir este(a) usuário(a)?"); ' >excluir</a> |
+							<a href="update.php?acao=atualizar&id=<?php echo $linha['id']; ?>">atualizar</a>
 						</td>
 					</tr>
 
